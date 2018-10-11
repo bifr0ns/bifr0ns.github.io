@@ -25,9 +25,9 @@ what does the fox say?
 ### Sample output
 wa pa pa pa pa pa pow  
 
->Leyendo el problema no podemos dar cuenta que lo que tenemos que hacer comparar la cadena donde están todos los sonidos e ir eliminando los sonidos de las cadenas siguientes.
+>Leyendo el problema no podemos dar cuenta que lo que tenemos que hacer es comparar la cadena donde están todos los sonidos e ir eliminando los sonidos de las cadenas siguientes.
 
-
+Aquí está mi código para resolverlo
 
 ```cpp
 int main(){
@@ -79,3 +79,12 @@ int main(){
 	return 0;
 }
 ```
+El primer _while_ son para el número de casos que se puedan dar para el programa. El segundo _while_ es para leer la cadena de los sonidos saber cuantos sonidos son en _cont_, mientras que con el tercer _while_ vamos a leer los sonidos que hace cada animal y saber el número de animales en _cont2_.
+
+En el siguiente for es donde pasa toda la acción, con un for anidado para dos contadores que sacamos de los primeros _while_ vamos a comparar las palabras de la cadena _(palabras[i])_ con los sonidos de los animales _(sounds[j])_, si son iguales simplemente terminamos ese for para pasar al siguiente sonido de la cadena, si llegar a tener una coincidencia el valor de la cadena con los sonidos que conoces significa que es un sonido del zorro así que simplemente lo imprimimos. 
+
+Los _memset_ que agregué es para cuando allá más de un caso **(t)**, donde reinicio los valores de las variables para no tener un problema de memoria límite. 
+
+Así que por medio de este programa ahora sabemos que lo que en realidad dijo el zorro fue **wa pa pa pa pa pa pow.**
+
+Te invito a que pruebes el programa [aquí](https://ideone.com/IiMzz2) y hagas tus propios casos de prueba.
