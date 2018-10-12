@@ -50,14 +50,10 @@ El código para resolver el problema es el siguiente, va después de las variabl
 for(int k=0; k<n; k++){
 		cin >> str;
 		for(int i=0; i < str.length(); i++){
-			if(str[i] > 96){
-				c = (str[i]-32);
-				cout << c;
-			}
-			else if(str[i] > 64){
-				c = (str[i]+32);
-				cout << c;
-			}
+			if(str[i] > 96)
+				cout << char(str[i]-32);
+			else if(str[i] > 64)
+				cout << char(str[i]+32);
 			else
 				cout << str[i];
 		}
