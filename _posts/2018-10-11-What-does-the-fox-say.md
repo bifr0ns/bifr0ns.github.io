@@ -25,7 +25,7 @@ what does the fox say?
 ### Sample output
 wa pa pa pa pa pa pow  
 
->Leyendo el problema no podemos dar cuenta que lo que tenemos que hacer es comparar la cadena donde están todos los sonidos e ir eliminando los sonidos de las cadenas siguientes.
+>Leyendo el problema nos podemos dar cuenta de que lo que tenemos que hacer es comparar la cadena donde están todos los sonidos con los sonidos de cada animal.
 
 Aquí está mi código para resolverlo
 
