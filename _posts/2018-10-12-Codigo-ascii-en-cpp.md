@@ -38,7 +38,7 @@ fEEu
 
 Y el código ASCII cómo nos puede ayudar en esto te preguntas? Bueno, observando los valores de las letras mayúsculas y minúsculas en el código ASCII podemos observar que las letras mayúsculas se encuentran en el **rango 65 a 90**, mientras que las letras minúsculas se encuentran en el **rango 97 a 122**.
 
-![codigo ascii](/images/codigo-ascii-cpp/codigo-ascii.png)
+![codigo ascii](/images/codigo-ascii-cpp/codigo-ascii.jpg)
 
 Entonces cada código ASCII que sea mayor que 96 será una letra minúscula, y cada código ASCII mayor que 64 pero menor que 97 será una letra mayúscula. Hasta aquí tenemos una parte del problema. Ahora sólo tenemos que invertir las letras, y para poder hacer esto recurrimos al código ASCII de nuevo. 
 
